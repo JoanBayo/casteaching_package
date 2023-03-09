@@ -1,11 +1,25 @@
 {
-  "name": "@JoanBayo/casteaching",
-  "version": "1.0.0",
-  "description": "Javascript package for casteaching API",
+  "name": "casteaching_bayo",
+  "version": "1.0.3",
+  "description": "bayo's librery",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoanBayo/casteaching_package.git"
+  },
+  "keywords": [
+    "Casteaching",
+    "axios",
+    "api",
+    "rest"
+  ],
   "author": "Joan Bayo",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoanBayo/casteaching_package/issues"
+  },
+  "homepage": "https://github.com/JoanBayo/casteaching_package#readme"
 }
