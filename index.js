@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // TOKEN 4dtQl58nAQ6ciWW04BHdQCav2WbMnspuJnHjGYrO
 const apiClinet = axios.create({
-    baseURL: 'http://casteachingbayo.test/api',
+    baseURL: process.env.VITE_API_URL,
     withCredentials : true,
     headers: {
         Accept: 'application/json',
